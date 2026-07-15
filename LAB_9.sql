@@ -206,7 +206,6 @@ HAVING SUM(SALARY) < 15000
 --Part – C: 
 
 
-
 --26. Display cities where number of male employees greater than female employees. 
 
 SELECT CITY,COUNT(*) AS MALE_EMPLOYEE
