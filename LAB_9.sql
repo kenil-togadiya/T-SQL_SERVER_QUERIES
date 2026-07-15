@@ -2,6 +2,7 @@
 
 SELECT *
 FROM EMPLOYEE
+
 --1. Display cities where total salary of employees greater than 20000. 
 
 SELECT CITY,SUM(SALARY) AS TOTAL_SALARY
