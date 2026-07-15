@@ -1,4 +1,5 @@
 -- //1 Create STUDENT_INFO table with given constraints 
+
 CREATE TABLE STUDENT_INFO
 (
     RNO INT PRIMARY KEY,
@@ -212,6 +213,7 @@ VALUES
 
 
 -- 15. Insert Data into PLAYER Table 
+
 INSERT INTO 
 PLAYER
 VALUES
