@@ -155,9 +155,5 @@ WHERE ADATE BETWEEN '01-Mar-2025' AND '31-DEC-2025'
 
 --27. Display records where account date is in the current year. 
 
-SELECT *
-FROM DEPOSIT 
-
-
 
 --28. Display difference in days between today’s date and account date. 
