@@ -214,7 +214,7 @@ ORDER BY MAX(SPI) DESC
 
 -- 25. Display branches where difference between max and min SPI is greater than 1. 
 
-SELECT BRANCH ,MAX(SPI),MIN(SPI)
+SELECT BRANCH ,MAX(SPI),MIN(SPI) AS DIFF_MAX_AND_MIN
 FROM STUDENT_INFO S
 INNER JOIN RESULT R
 ON S.RNO = R.RNO 
